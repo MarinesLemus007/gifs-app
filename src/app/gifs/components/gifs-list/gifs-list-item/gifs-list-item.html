@@ -1,7 +1,5 @@
- @for(item of listItem; track item.src){
-    <div>
-        <img class="h-auto max-w-full rounded-base" 
-        src="{{item.src}}" 
-        alt="">
-    </div>
- }
+<div>
+    <img class="h-full w-full rounded-lg object-cover" 
+    [src]="imageUrl()" 
+    alt="">
+</div>
